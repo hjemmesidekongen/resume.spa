@@ -1,9 +1,52 @@
 {
     "data": [
         {
-            "name": "",
+            "name": "Fredericia kommune egen hjemmeside",
             "description": "",
-            "url": ""
+            "url": "https://www.fredericia.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "Decreto - online mødebooking",
+            "description": "",
+            "url": "http://decreto.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "2movepeople - online trivselsværktøj",
+            "description": "",
+            "url": "https://2movepeople.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "Faxe kommunes egen hjemmeside",
+            "description": "",
+            "url": "https://www.faxekommune.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "Sikkerhedsstyrelsens egen hjemmeside",
+            "description": "",
+            "url": "https://www.sik.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "Komunaldirektørenes forening i Danmark",
+            "description": "",
+            "url": "http://komdir.dk/",
+            "employer": "Bellcom"
+        },
+        {
+            "name": "Med24",
+            "description": "",
+            "url": "https://www.med24.dk/",
+            "employer": "Sharksmedia"
+        },
+        {
+            "name": "JyskVin",
+            "description": "",
+            "url": "https://www.jyskvin.dk/",
+            "employer": "Sharksmedia"
         }
     ]
 }

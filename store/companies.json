@@ -4,9 +4,25 @@
             "name": "Bellcom",
             "logo": "/images/companies/bellcom.png",
             "website_url": "https://bellcom.dk",
-            "city": "",
-            "hiredAt": "",
-            "endedAt": ""
+            "city": "Kolding",
+            "hiredAt": "2014",
+            "endedAt": "2017"
+        },
+        {
+            "name": "Sharksmedia",
+            "logo": "/images/companies/sharksmedia.png",
+            "website_url": "https://sharksmedia.dk/",
+            "city": "Vejle",
+            "hiredAt": "2017",
+            "endedAt": "2018"
+        },
+        {
+            "name": "Bellcom",
+            "logo": "/images/companies/bellcom.png",
+            "website_url": "https://bellcom.dk",
+            "city": "Kolding",
+            "hiredAt": "2018",
+            "endedAt": "2020"
         }
     ]
 }
