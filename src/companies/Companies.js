@@ -12,11 +12,7 @@ const Companies = () => {
     return 0;
   });
 
-  return (
-    <>
-      <CompaniesList companies={orderedCompanies} />
-    </>
-  );
+  return <CompaniesList companies={orderedCompanies} />;
 };
 
 export default Companies;
