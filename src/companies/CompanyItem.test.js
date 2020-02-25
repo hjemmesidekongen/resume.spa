@@ -55,11 +55,12 @@ it('renders all passed props in DOM', () => {
     endedAt: 2015,
   };
   const { getByTestId } = render(<CompanyItem {...props} />);
+  const component = getByTestId('content');
 
-  expect(getByTestId('name')).toHaveTextContent(props.name);
-  expect(getByTestId('url')).toHaveTextContent(props.url);
-  expect(getByTestId('city')).toHaveTextContent(props.city);
-  expect(getByTestId('logo')).toHaveTextContent(props.logo);
-  expect(getByTestId('hiredAt')).toHaveTextContent(props.hiredAt);
-  expect(getByTestId('endedAt')).toHaveTextContent(props.endedAt);
+  expect(component).toHaveTextContent(props.name);
+  expect(component).toHaveTextContent(props.url);
+  expect(component).toHaveTextContent(props.city);
+  expect(component).toHaveTextContent(props.logo);
+  expect(component).toHaveTextContent(props.hiredAt);
+  expect(component).toHaveTextContent(props.endedAt);
 });

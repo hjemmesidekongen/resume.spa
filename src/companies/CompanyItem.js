@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CompanyItem = ({ name, logo, url, city, hiredAt, endedAt }) => (
-  <div className="company-item">
-    <div data-testid="name">{name}</div>
-    <div data-testid="logo">{logo}</div>
-    <div data-testid="url">{url}</div>
-    <div data-testid="city">{city}</div>
-    <div data-testid="hiredAt">Ansat: {hiredAt}</div>
-    <div data-testid="endedAt">Ophørt: {endedAt}</div>
+  <div className="company-item" data-testid="content">
+    <div>{name}</div>
+    <div>{logo}</div>
+    <div>{url}</div>
+    <div>{city}</div>
+    <div>Ansat: {hiredAt}</div>
+    <div>Ophørt: {endedAt}</div>
   </div>
 );
 
