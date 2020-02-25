@@ -18,21 +18,21 @@ it('renders empty message if no projects are provided', () => {
 it('renders projects that are passed via props', () => {
   const projectProps = [
     {
-      name: 'A project',
+      name: 'Project 1',
       description: 'Some description',
-      url: 'http://example.com',
+      url: 'http://example-1.com',
       employer: 'Company 1',
     },
     {
-      name: 'A project',
+      name: 'Project 2',
       description: 'Some description',
-      url: 'http://example.com',
+      url: 'http://example-2.com',
       employer: 'Company 2',
     },
     {
-      name: 'A project',
+      name: 'Project 3',
       description: 'Some description',
-      url: 'http://example.com',
+      url: 'http://example-3.com',
       employer: 'Company 3',
     },
   ];

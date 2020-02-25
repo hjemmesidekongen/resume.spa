@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
 
 import CompanyItem from './CompanyItem';
 
@@ -9,9 +10,9 @@ const CompaniesList = ({ companies }) => {
   }
 
   return (
-    <div data-testid="list">
+    <Grid container spacing={3} data-testid="list">
       {companies.map(company => (
-        <div data-testid="company" key={`${company.name}-${company.hiredAt}`}>
+        <Grid item sm={4} data-testid="company" key={`${company.name}-${company.hiredAt}`}>
           <CompanyItem
             name={company.name}
             url={company.url}
@@ -20,9 +21,9 @@ const CompaniesList = ({ companies }) => {
             hiredAt={company.hiredAt}
             endedAt={company.endedAt}
           />
-        </div>
+        </Grid>
       ))}
-    </div>
+    </Grid>
   );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
 
 import ProjectItem from './ProjectItem';
 
@@ -9,11 +10,11 @@ const ProjectList = ({ projects }) => {
   }
 
   return (
-    <div data-testid="list">
+    <Grid container spacing={3} data-testid="list">
       {projects.map(project => (
-        <div
+        <Grid item sm={4}
           data-testid="project"
-          key={project.url}
+          key={`${project.name}-${project.url}`}
         >
           <ProjectItem
             name={project.name}
@@ -21,9 +22,9 @@ const ProjectList = ({ projects }) => {
             employer={project.employer}
             url={project.url}
           />
-        </div>
+        </Grid>
       ))}
-    </div>
+    </Grid>
   );
 };
 

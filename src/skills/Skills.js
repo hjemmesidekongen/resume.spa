@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 import store from '../store/skills.json';
 import SkillList from './SkillList';
@@ -14,7 +15,9 @@ const Skills = () => {
 
   return (
     <div>
-      <h2>Færdigheder</h2>
+      <Typography variant="h4">
+        Færdigheder
+      </Typography>
       <SkillList skills={orderedSkills} />
     </div>
   );

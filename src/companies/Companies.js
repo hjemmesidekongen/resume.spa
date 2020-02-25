@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 import store from '../store/companies.json';
 import CompaniesList from './CompaniesList';
@@ -14,7 +15,9 @@ const Companies = () => {
 
   return (
     <div>
-      <h2>Arbejdspladser</h2>
+      <Typography variant="h4">
+        Arbejdspladser
+      </Typography>
       <CompaniesList companies={orderedCompanies} />
     </div>
   );

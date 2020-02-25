@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
 
 import SkillItem from './SkillItem';
 
@@ -9,9 +10,9 @@ const SkillList = ({ skills }) => {
   }
 
   return (
-    <div data-testid="list">
+    <Grid container spacing={3} data-testid="list">
       {skills.map(skill => (
-        <div
+        <Grid item sm={4}
           data-testid="skill"
           key={skill.name}
         >
@@ -20,9 +21,9 @@ const SkillList = ({ skills }) => {
             level={skill.level}
             experienceInYears={skill.experienceInYears}
           />
-        </div>
+        </Grid>
       ))}
-    </div>
+    </Grid>
   );
 };
 

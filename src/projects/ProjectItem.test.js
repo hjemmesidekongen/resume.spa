@@ -43,7 +43,7 @@ it('renders all passed props in DOM', () => {
   const props = {
     name: 'A project',
     description: 'Some description',
-    url: 'http://example.com',
+    url: 'http://example-1.com',
     employer: 'Company 1',
   };
   const { getByTestId } = render(<ProjectItem {...props} />);
@@ -51,6 +51,6 @@ it('renders all passed props in DOM', () => {
 
   expect(component).toHaveTextContent(props.name);
   expect(component).toHaveTextContent(props.description);
-  expect(component).toHaveTextContent(props.url);
+  expect(component.querySelector('a').getAttribute('href')).toBe(props.url);
   expect(component).toHaveTextContent(props.employer);
 });

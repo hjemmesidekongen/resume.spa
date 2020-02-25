@@ -1,12 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
 
 const SkillItem = ({ name, level, experienceInYears }) => (
-  <div className="skill-item" data-testid="content">
-    <div><h3>{name}</h3></div>
-    <div>Niveau: {level}</div>
-    <div>Erfaring: {experienceInYears} år</div>
-  </div>
+  <Card variant="outlined" data-testid="content">
+    <CardContent>
+      <Typography color="textSecondary" gutterBottom>
+        Niveau: {level}
+      </Typography>
+      <Typography variant="h5" component="h2">
+        {name}
+      </Typography>
+      <Typography>
+        <strong>Erfaring:</strong> {experienceInYears} år
+      </Typography>
+    </CardContent>
+  </Card>
 );
 
 SkillItem.propTypes = {

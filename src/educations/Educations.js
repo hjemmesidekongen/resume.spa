@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 import store from '../store/educations.json';
 import EducationList from './EducationList';
@@ -14,7 +15,9 @@ const Educations = () => {
 
   return (
     <div>
-      <h2>Uddannelser</h2>
+      <Typography variant="h4">
+        Uddannelser
+      </Typography>
       <EducationList educations={orderedEducations} />
     </div>
   );

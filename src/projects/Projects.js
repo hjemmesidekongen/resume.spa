@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 import store from '../store/projects.json';
 import ProjectList from './ProjectList';
@@ -14,7 +15,9 @@ const Projects = () => {
 
   return (
     <div>
-      <h2>Projekter</h2>
+      <Typography variant="h4">
+        Projekter
+      </Typography>
       <ProjectList projects={orderedProjects} />
     </div>
   );

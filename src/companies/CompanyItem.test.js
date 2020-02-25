@@ -58,9 +58,8 @@ it('renders all passed props in DOM', () => {
   const component = getByTestId('content');
 
   expect(component).toHaveTextContent(props.name);
-  expect(component).toHaveTextContent(props.url);
+  expect(component.querySelector('a').getAttribute('href')).toBe(props.url);
   expect(component).toHaveTextContent(props.city);
-  expect(component).toHaveTextContent(props.logo);
   expect(component).toHaveTextContent(props.hiredAt);
   expect(component).toHaveTextContent(props.endedAt);
 });

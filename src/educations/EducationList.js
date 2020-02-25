@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
 
 import EducationItem from './EducationItem';
 
@@ -9,9 +10,9 @@ const EducationList = ({ educations }) => {
   }
 
   return (
-    <div data-testid="list">
+    <Grid container spacing={3} data-testid="list">
       {educations.map(education => (
-        <div
+        <Grid item sm={4}
           data-testid="education"
           key={`${education.name}-${education.startedAt}`}
         >
@@ -22,9 +23,9 @@ const EducationList = ({ educations }) => {
             startedAt={education.startedAt}
             endedAt={education.endedAt}
           />
-        </div>
+        </Grid>
       ))}
-    </div>
+    </Grid>
   );
 };
 
