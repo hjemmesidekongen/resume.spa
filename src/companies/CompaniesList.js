@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import CompanyItem from './CompanyItem';
+
 const CompaniesList = ({ companies }) => {
   if (companies.length === 0) {
     return <div data-testid="emptyMessage">Ingen virksomheder tilføjet.</div>;
@@ -10,7 +12,14 @@ const CompaniesList = ({ companies }) => {
     <div data-testid="list">
       {companies.map(company => (
         <div data-testid="company" key={`${company.name}-${company.hiredAt}`}>
-          {company.name}
+          <CompanyItem
+            name={company.name}
+            url={company.url}
+            logo={company.logo}
+            city={company.city}
+            hiredAt={company.hiredAt}
+            endedAt={company.endedAt}
+          />
         </div>
       ))}
     </div>
