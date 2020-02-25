@@ -30,57 +30,57 @@
             {
                 "name": "React",
                 "level": "medium",
-                "experienceInYears": "2"
+                "experienceInYears": 2
             },
             {
                 "name": "Vue JS",
                 "level": "low",
-                "experienceInYears": "1"
+                "experienceInYears": 1
             },
             {
                 "name": "Laravel",
                 "level": "medium",
-                "experienceInYears": "2"
+                "experienceInYears": 2
             },
             {
                 "name": "Drupal 7",
                 "level": "extreme",
-                "experienceInYears": "5"
+                "experienceInYears": 5
             },
             {
                 "name": "Drupal 8",
                 "level": "high",
-                "experienceInYears": "4"
+                "experienceInYears": 4
             },
             {
                 "name": "Bootstrap 2",
                 "level": "high",
-                "experienceInYears": "7"
+                "experienceInYears": 7
             },
             {
                 "name": "Bootstrap 3",
                 "level": "extreme",
-                "experienceInYears": "6"
+                "experienceInYears": 6
             },
             {
                 "name": "Bootstrap 4",
                 "level": "medium",
-                "experienceInYears": "2"
+                "experienceInYears": 2
             },
             {
                 "name": "Zurb Foundation for emails",
                 "level": "medium",
-                "experienceInYears": "3"
+                "experienceInYears": 3
             },
             {
                 "name": "Zurb Foundation for web",
                 "level": "medium",
-                "experienceInYears": "3"
+                "experienceInYears": 3
             },
             {
                 "name": "jQuery",
                 "level": "high",
-                "experienceInYears": "9"
+                "experienceInYears": 9
             }
         ]
     }
