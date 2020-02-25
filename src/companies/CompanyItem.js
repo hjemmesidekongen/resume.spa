@@ -23,7 +23,7 @@ const CompanyItem = ({name, logo, url, city, hiredAt, endedAt}) => {
                 {endedAt}
             </span>
         </div>
-    )
+    );
 };
 
 CompanyItem.defaultProps = {
