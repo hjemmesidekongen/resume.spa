@@ -1,12 +1,10 @@
 import React from 'react';
-import Companies from './company/Companies';
+import Companies from './companies/Companies';
 
-const App = () => {
-  return (
-    <>
-      <Companies />
-    </>
-  );
-}
+const App = () => (
+  <>
+    <Companies />
+  </>
+);
 
 export default App;
