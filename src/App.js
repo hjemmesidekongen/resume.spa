@@ -1,9 +1,11 @@
 import React from 'react';
+import Companies from './company/Companies';
 
 const App = () => {
   return (
-    <div>
-    </div>
+    <>
+      <Companies />
+    </>
   );
 }
 
