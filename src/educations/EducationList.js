@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import EducationItem from './EducationItem';
 
-const EducationsList = ({ educations }) => {
+const EducationList = ({ educations }) => {
   if (educations.length === 0) {
     return <div data-testid="emptyMessage">Ingen uddannelser tilføjet.</div>;
   }
@@ -28,11 +28,11 @@ const EducationsList = ({ educations }) => {
   );
 };
 
-EducationsList.defaultProps = {
+EducationList.defaultProps = {
   educations: [],
 };
 
-EducationsList.propTypes = {
+EducationList.propTypes = {
   educations: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
@@ -44,4 +44,4 @@ EducationsList.propTypes = {
   ),
 };
 
-export default EducationsList;
+export default EducationList;

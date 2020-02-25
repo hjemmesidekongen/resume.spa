@@ -1,7 +1,7 @@
 import React from 'react';
 
 import store from '../store/educations.json';
-import EducationsList from './EducationsList';
+import EducationList from './EducationList';
 
 const Educations = () => {
   const educations = store.data;
@@ -15,7 +15,7 @@ const Educations = () => {
   return (
     <div>
       <h2>Uddannelser</h2>
-      <EducationsList educations={orderedEducations} />
+      <EducationList educations={orderedEducations} />
     </div>
   );
 };

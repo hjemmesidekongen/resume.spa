@@ -1,16 +1,16 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import EducationsList from './EducationsList';
+import EducationList from './EducationList';
 
 it('renders without errors', () => {
-  const component = () => render(<EducationsList />);
+  const component = () => render(<EducationList />);
 
   expect(component).not.toThrowError();
 });
 
 it('renders empty message if no educations are provided', () => {
-  const { queryByTestId } = render(<EducationsList educations={[]} />);
+  const { queryByTestId } = render(<EducationList educations={[]} />);
 
   expect(queryByTestId('emptyMessage')).toBeInTheDocument();
 });
@@ -40,7 +40,7 @@ it('renders educations that are passed via props', () => {
     },
   ];
   const { getByTestId, getAllByTestId } = render(
-    <EducationsList educations={educationProps} />
+    <EducationList educations={educationProps} />
   );
   const linkElements = getAllByTestId('education');
   const list = getByTestId('list');
@@ -52,7 +52,7 @@ it('renders educations that are passed via props', () => {
 it('throws an error if passed props have the wrong shape', () => {
   const educationProps = [{ wrongKey: 'me' }];
   const component = () =>
-    render(<EducationsList educations={educationProps} />);
+    render(<EducationList educations={educationProps} />);
 
   expect(component).toThrowError();
 });
