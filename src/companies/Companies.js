@@ -12,7 +12,12 @@ const Companies = () => {
     return 0;
   });
 
-  return <CompaniesList companies={orderedCompanies} />;
+  return (
+    <div>
+      <h2>Arbejdspladser</h2>
+      <CompaniesList companies={orderedCompanies} />
+    </div>
+  );
 };
 
 export default Companies;
