@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 const CompanyItem = ({ name, logo, url, city, hiredAt, endedAt }) => (
   <div className="company-item">
-    <span data-testid="name">{name}</span>
-    <span data-testid="logo">{logo}</span>
-    <span data-testid="url">{url}</span>
-    <span data-testid="city">{city}</span>
-    <span data-testid="hiredAt">{hiredAt}</span>
-    <span data-testid="endedAt">{endedAt}</span>
+    <div data-testid="name">{name}</div>
+    <div data-testid="logo">{logo}</div>
+    <div data-testid="url">{url}</div>
+    <div data-testid="city">{city}</div>
+    <div data-testid="hiredAt">Ansat: {hiredAt}</div>
+    <div data-testid="endedAt">Ophørt: {endedAt}</div>
   </div>
 );
 
