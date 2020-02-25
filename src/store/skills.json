@@ -1,87 +1,59 @@
 {
-    "data": {
-        "languages": [
-            {
-                "language": "php",
-                "level": "medium"
-            },
-            {
-                "language": "javascript",
-                "level": "medium"
-            },
-            {
-                "language": "css",
-                "level": "extreme"
-            },
-            {
-                "language": "html",
-                "level": "high"
-            },
-            {
-                "language": "scss",
-                "level": "high"
-            },
-            {
-                "language": "less",
-                "level": "high"
-            }
-        ],
-        "frameworks": [
-            {
-                "name": "React",
-                "level": "medium",
-                "experienceInYears": 2
-            },
-            {
-                "name": "Vue JS",
-                "level": "low",
-                "experienceInYears": 1
-            },
-            {
-                "name": "Laravel",
-                "level": "medium",
-                "experienceInYears": 2
-            },
-            {
-                "name": "Drupal 7",
-                "level": "extreme",
-                "experienceInYears": 5
-            },
-            {
-                "name": "Drupal 8",
-                "level": "high",
-                "experienceInYears": 4
-            },
-            {
-                "name": "Bootstrap 2",
-                "level": "high",
-                "experienceInYears": 7
-            },
-            {
-                "name": "Bootstrap 3",
-                "level": "extreme",
-                "experienceInYears": 6
-            },
-            {
-                "name": "Bootstrap 4",
-                "level": "medium",
-                "experienceInYears": 2
-            },
-            {
-                "name": "Zurb Foundation for emails",
-                "level": "medium",
-                "experienceInYears": 3
-            },
-            {
-                "name": "Zurb Foundation for web",
-                "level": "medium",
-                "experienceInYears": 3
-            },
-            {
-                "name": "jQuery",
-                "level": "high",
-                "experienceInYears": 9
-            }
-        ]
-    }
+    "data": [
+        {
+            "name": "React",
+            "level": "medium",
+            "experienceInYears": 2
+        },
+        {
+            "name": "Vue JS",
+            "level": "low",
+            "experienceInYears": 1
+        },
+        {
+            "name": "Laravel",
+            "level": "medium",
+            "experienceInYears": 2
+        },
+        {
+            "name": "Drupal 7",
+            "level": "extreme",
+            "experienceInYears": 5
+        },
+        {
+            "name": "Drupal 8",
+            "level": "high",
+            "experienceInYears": 4
+        },
+        {
+            "name": "Bootstrap 2",
+            "level": "high",
+            "experienceInYears": 7
+        },
+        {
+            "name": "Bootstrap 3",
+            "level": "extreme",
+            "experienceInYears": 6
+        },
+        {
+            "name": "Bootstrap 4",
+            "level": "medium",
+            "experienceInYears": 2
+        },
+        {
+            "name": "Zurb Foundation for emails",
+            "level": "medium",
+            "experienceInYears": 3
+        },
+        {
+            "name": "Zurb Foundation for web",
+            "level": "medium",
+            "experienceInYears": 3
+        },
+        {
+            "name": "jQuery",
+            "level": "high",
+            "experienceInYears": 9
+        }
+    ]
 }
