@@ -51,8 +51,7 @@ it('renders educations that are passed via props', () => {
 
 it('throws an error if passed props have the wrong shape', () => {
   const educationProps = [{ wrongKey: 'me' }];
-  const component = () =>
-    render(<EducationList educations={educationProps} />);
+  const component = () => render(<EducationList educations={educationProps} />);
 
   expect(component).toThrowError();
 });

@@ -12,7 +12,12 @@ const CompaniesList = ({ companies }) => {
   return (
     <Grid container spacing={3} data-testid="list">
       {companies.map(company => (
-        <Grid item sm={4} data-testid="company" key={`${company.name}-${company.hiredAt}`}>
+        <Grid
+          item
+          sm={4}
+          data-testid="company"
+          key={`${company.name}-${company.hiredAt}`}
+        >
           <CompanyItem
             name={company.name}
             url={company.url}

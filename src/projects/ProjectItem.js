@@ -15,12 +15,12 @@ const ProjectItem = ({ name, description, url, employer }) => (
       <Typography variant="h5" component="h2">
         {name}
       </Typography>
-      <Typography>
-        {description}
-      </Typography>
+      <Typography>{description}</Typography>
     </CardContent>
     <CardActions>
-      <Button href={url} target="_blank">Besøg hjemmeside</Button>
+      <Button href={url} target="_blank">
+        Besøg hjemmeside
+      </Button>
     </CardActions>
   </Card>
 );

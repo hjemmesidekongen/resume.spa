@@ -5,7 +5,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
 const EducationItem = ({ name, education, city, startedAt, endedAt }) => (
-
   <Card variant="outlined" data-testid="content">
     <CardContent>
       <Typography color="textSecondary" gutterBottom>

@@ -45,8 +45,7 @@ it('renders skills that are passed via props', () => {
 
 it('throws an error if passed props have the wrong shape', () => {
   const skillProps = [{ wrongKey: 'me' }];
-  const component = () =>
-    render(<SkillList skills={skillProps} />);
+  const component = () => render(<SkillList skills={skillProps} />);
 
   expect(component).toThrowError();
 });

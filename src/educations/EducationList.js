@@ -12,7 +12,9 @@ const EducationList = ({ educations }) => {
   return (
     <Grid container spacing={3} data-testid="list">
       {educations.map(education => (
-        <Grid item sm={4}
+        <Grid
+          item
+          sm={4}
           data-testid="education"
           key={`${education.name}-${education.startedAt}`}
         >

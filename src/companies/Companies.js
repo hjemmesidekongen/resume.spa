@@ -15,9 +15,7 @@ const Companies = () => {
 
   return (
     <div>
-      <Typography variant="h4">
-        Arbejdspladser
-      </Typography>
+      <Typography variant="h4">Arbejdspladser</Typography>
       <CompaniesList companies={orderedCompanies} />
     </div>
   );

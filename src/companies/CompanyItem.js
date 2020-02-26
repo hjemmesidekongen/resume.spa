@@ -11,10 +11,7 @@ import Typography from '@material-ui/core/Typography';
 const CompanyItem = ({ name, logo, url, city, hiredAt, endedAt }) => (
   <Card variant="outlined" data-testid="content">
     <CardActionArea>
-      <CardMedia
-        image={logo}
-        title={name}
-      />
+      <CardMedia image={logo} title={name} />
       <CardContent>
         <Typography color="textSecondary" gutterBottom>
           {city}

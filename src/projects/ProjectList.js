@@ -12,7 +12,9 @@ const ProjectList = ({ projects }) => {
   return (
     <Grid container spacing={3} data-testid="list">
       {projects.map(project => (
-        <Grid item sm={4}
+        <Grid
+          item
+          sm={4}
           data-testid="project"
           key={`${project.name}-${project.url}`}
         >

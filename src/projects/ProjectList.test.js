@@ -48,8 +48,7 @@ it('renders projects that are passed via props', () => {
 
 it('throws an error if passed props have the wrong shape', () => {
   const projectProps = [{ wrongKey: 'me' }];
-  const component = () =>
-    render(<ProjectList projects={projectProps} />);
+  const component = () => render(<ProjectList projects={projectProps} />);
 
   expect(component).toThrowError();
 });

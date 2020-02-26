@@ -12,10 +12,7 @@ const SkillList = ({ skills }) => {
   return (
     <Grid container spacing={3} data-testid="list">
       {skills.map(skill => (
-        <Grid item sm={4}
-          data-testid="skill"
-          key={skill.name}
-        >
+        <Grid item sm={4} data-testid="skill" key={skill.name}>
           <SkillItem
             name={skill.name}
             level={skill.level}

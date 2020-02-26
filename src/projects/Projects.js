@@ -15,9 +15,7 @@ const Projects = () => {
 
   return (
     <div>
-      <Typography variant="h4">
-        Projekter
-      </Typography>
+      <Typography variant="h4">Projekter</Typography>
       <ProjectList projects={orderedProjects} />
     </div>
   );

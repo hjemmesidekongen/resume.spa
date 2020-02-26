@@ -15,9 +15,7 @@ const Skills = () => {
 
   return (
     <div>
-      <Typography variant="h4">
-        Færdigheder
-      </Typography>
+      <Typography variant="h4">Færdigheder</Typography>
       <SkillList skills={orderedSkills} />
     </div>
   );

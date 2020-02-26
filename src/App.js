@@ -10,16 +10,16 @@ import Skills from './skills/Skills';
 const App = () => (
   <Container>
     <Typography variant="h2">CV</Typography>
-    <br/>
+    <br />
     <Companies />
-    <br/>
-    <br/>
+    <br />
+    <br />
     <Educations />
-    <br/>
-    <br/>
+    <br />
+    <br />
     <Projects />
-    <br/>
-    <br/>
+    <br />
+    <br />
     <Skills />
   </Container>
 );

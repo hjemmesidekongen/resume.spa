@@ -15,9 +15,7 @@ const Educations = () => {
 
   return (
     <div>
-      <Typography variant="h4">
-        Uddannelser
-      </Typography>
+      <Typography variant="h4">Uddannelser</Typography>
       <EducationList educations={orderedEducations} />
     </div>
   );
