@@ -19,9 +19,6 @@ const EducationList = ({ educations }) => {
           key={`${education.name}-${education.startedAt}`}
         >
           <EducationItem
-            name={education.name}
-            education={education.education}
-            city={education.city}
             startedAt={education.startedAt}
             endedAt={education.endedAt}
           />
