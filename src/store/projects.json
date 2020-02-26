@@ -1,50 +1,50 @@
 {
     "data": [
         {
+            "name": "Sikkerhedsstyrelsens egen hjemmeside",
+            "description": "Ansvarlig for implementering af design på website for stor dansk styrelse.",
+            "url": "https://www.sik.dk/",
+            "employer": "Bellcom"
+        },
+        {
             "name": "Fredericia kommune egen hjemmeside",
-            "description": "",
+            "description": "Ansvarlig for implementering og udarbejdelse  af design på kommunalt website.",
             "url": "https://www.fredericia.dk/",
             "employer": "Bellcom"
         },
         {
             "name": "Decreto - online mødebooking",
-            "description": "",
+            "description": "Ansvarlig for implementering og udarbejdelse af design på præsentations website for decreto systemet. Udarbejdet i Drupal 8.",
             "url": "http://decreto.dk/",
             "employer": "Bellcom"
         },
         {
             "name": "2movepeople - online trivselsværktøj",
-            "description": "",
+            "description": "Ansvarlig for implementering og udarbejdelse af design på præsentations website for 2movepeople systemet. Udarbejdet i Drupal 8.",
             "url": "https://2movepeople.dk/",
             "employer": "Bellcom"
         },
         {
             "name": "Faxe kommunes egen hjemmeside",
-            "description": "",
+            "description": "Ansvarlig for implementering og udarbejdelse af design på kommunalt website.",
             "url": "https://www.faxekommune.dk/",
             "employer": "Bellcom"
         },
         {
-            "name": "Sikkerhedsstyrelsens egen hjemmeside",
-            "description": "",
-            "url": "https://www.sik.dk/",
-            "employer": "Bellcom"
-        },
-        {
             "name": "Komunaldirektørenes forening i Danmark",
-            "description": "",
+            "description": "Ansvarlig af overflytning af hjemmesiden fra Drupal 7 til Drupal 8.",
             "url": "http://komdir.dk/",
             "employer": "Bellcom"
         },
         {
             "name": "Med24",
-            "description": "",
+            "description": "Ansvarlig for implementering af redesign på stor dansk webshop.",
             "url": "https://www.med24.dk/",
             "employer": "Sharksmedia"
         },
         {
             "name": "JyskVin",
-            "description": "",
+            "description": "Ansvarlig for implementering af redesign på stor dansk vin-webshop.",
             "url": "https://www.jyskvin.dk/",
             "employer": "Sharksmedia"
         }
