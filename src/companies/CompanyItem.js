@@ -28,7 +28,9 @@ const CompanyItem = ({ name, logo, url, city, hiredAt, endedAt }) => (
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Button href={url}>Besøg hjemmeside</Button>
+      <Button href={url} target="_blank">
+        Besøg hjemmeside
+      </Button>
     </CardActions>
   </Card>
 );
